@@ -1,7 +1,6 @@
 # Lab M5.09 - Pipeline Optimization
 Author : Faramarz Karamizadeh
-
-
+AUG 2026
  
 ## Pipeline Performance Comparison
  
@@ -21,7 +20,7 @@ Author : Faramarz Karamizadeh
 4. **Matrix Testing** — validate across multiple Terraform versions
  
 ## Repository Structure
-\`\`\`
+```
 ├── .github/workflows/
 │   ├── baseline-slow.yml.disabled
 │   ├── optimized.yml
@@ -32,4 +31,4 @@ Author : Faramarz Karamizadeh
 │   └── outputs.tf
 ├── .gitignore
 └── README.md
-\`\`\`
+```
