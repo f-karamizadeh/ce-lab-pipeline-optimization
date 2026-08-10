@@ -6,11 +6,11 @@ AUG 2026
  
 | Metric | Baseline (Slow) | Optimized |
 |--------|-----------------|-----------|
-| Total Duration | 0 min 19 sec | ___ min 16 sec |
+| Total Duration | 0 min 19 sec | 0 min 16 sec |
 | `terraform init` | 6 sec | 4 sec (cached) |
 | Job Structure | 1 sequential job | 3 parallel jobs |
 | Path Filtering | None (runs on all changes) | terraform/** only |
-| Version Testing | Single version | Matrix (1.6, 1.7, 1.8) |
+| Version Testing | Single version | Matrix (1.13.1, 1.13.2, 1.13.3) |
  
 ## Optimizations Applied
  
