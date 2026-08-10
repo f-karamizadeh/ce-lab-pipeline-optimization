@@ -7,8 +7,8 @@ Author : Faramarz Karamizadeh
  
 | Metric | Baseline (Slow) | Optimized |
 |--------|-----------------|-----------|
-| Total Duration | ___ min ___ sec | ___ min ___ sec |
-| `terraform init` | ___ sec | ___ sec (cached) |
+| Total Duration | 0 min 19 sec | ___ min ___ sec |
+| `terraform init` | 6 sec | ___ sec (cached) |
 | Job Structure | 1 sequential job | 3 parallel jobs |
 | Path Filtering | None (runs on all changes) | terraform/** only |
 | Version Testing | Single version | Matrix (1.6, 1.7, 1.8) |
